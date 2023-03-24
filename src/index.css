@@ -1,0 +1,275 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #09a1fa;
+    /* background-color: #005c91; */
+    background: linear-gradient(to bottom, #024a73 10%, #09a1fa);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header-text {
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+    bottom: 4px;
+}
+
+.icon-button {
+    background-color: #337da7;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    position: relative;
+    left: 14px;
+}
+
+.icon-button:hover {
+    background-color: #4b90b8;
+}
+
+.public-button {
+    background-color: #337da7;
+    border-radius: 3px;
+    width: 80px;
+    height: 30px;
+    position: relative;
+    left: 14px;
+    bottom: 6px;
+    color: #e4eef4;
+}
+
+.public-button:hover {
+    background-color: #4b90b8;
+}
+
+.public {
+    position: relative;
+    left: 10px;
+}
+
+.globe {
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    color: #e4eef4;
+}
+
+.board-button {
+    background-color: #dfe1e6;
+    border-radius: 3px;
+    width: 80px;
+    height: 30px;
+    position: relative;
+    left: 14px;
+    bottom: 6px;
+    color: #788397;
+}
+
+.board-button:hover {
+    background-color: #c7c9cd;
+}
+
+.Board {
+    position: relative;
+    left: 10px;
+}
+
+.drop-button {
+    background-color: #337da7;
+    height: 31px;
+    width: 30px;
+    border-radius: 3px;
+    position: relative;
+    left: 20px;
+    bottom: 2px;
+}
+
+.drop-button:hover {
+    background-color: #4b90b8;
+}
+
+.hamburger-button {
+    background-color: #337da7;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    position: absolute;
+    right: 10px;
+}
+
+.hamburger-button:hover {
+    background-color: #4b90b8;
+}
+
+.profile-button {
+    position: relative;
+    bottom: 35px;
+}
+
+.filter-button {
+    background-color: #337da7;
+    border-radius: 3px;
+    width: 80px;
+    height: 30px;
+    position: relative;
+    left: 837px;
+    bottom: 6px;
+    color: #e4eef4;
+}
+
+.filter-button:hover {
+    background-color: #4b90b8;
+}
+
+.Filter {
+    position: relative;
+    left: 10px;
+}
+
+.profile {
+    position: absolute;
+    right: 50px;
+}
+
+.header {
+    padding: 10px;
+    background-color: #024a73;
+}
+
+.left-vertical-line {
+    display: inline-block;
+    border-left: 1px solid #2473a1;
+    margin: 0 10px;
+    height: 18px;
+    position: relative;
+    bottom: 2px;
+    left: 14px;
+}
+
+.right-vertical-line {
+    display: inline-block;
+    border-left: 1px solid #2473a1;
+    margin: 0 10px;
+    height: 18px;
+    position: relative;
+    left: 990px;
+    bottom: 2px;
+}
+
+.right-vertical-line-two {
+    display: inline-block;
+    border-left: 1px solid #2473a1;
+    margin: 0 10px;
+    height: 18px;
+    position: relative;
+    left: 932px;
+    bottom: 2px;
+}
+
+.right-vertical-line-three {
+    display: inline-block;
+    border-left: 1px solid #2473a1;
+    margin: 0 10px;
+    height: 18px;
+    position: relative;
+    left: 742px;
+    bottom: 2px;
+}
+
+/* Card styling goes here  */
+.card {
+    padding: 10px;
+    display: inline-block;
+}
+
+.task-type {
+    position: relative;
+    right: 100px;
+    color: #4b5a75
+}
+
+.indiv-card {
+    background-color: #ebecf0;
+    border-radius: 4px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 19rem;
+    max-height: 55rem;
+    padding: 6px;
+}
+
+.item {
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 2px;
+    margin: 3px;
+    height: 35px;
+    text-align: left;
+    display: flex;
+    height: 100%; /* set the height of the item div to 100% */
+    padding: 5px;
+    margin-left: 5px;
+    color: #243757;
+}
+
+.item-add {
+    width: 250px;
+    background-color: #ebecf0;
+    border-radius: 2px;
+    margin: 3px;
+    height: 35px;
+    text-align: left;
+    display: flex;
+    height: 100%; /* set the height of the item div to 100% */
+    padding: 5px;
+    margin-left: 5px;
+    color: #243757;
+    justify-content: center;
+    position: relative;
+}
+
+.item-add:hover {
+    background-color: #d4d5d8;
+}
+
+.item:hover {
+    background-color: #eae5e5;
+}
+
+.task:hover {
+    background-color: #eae5e5;
+}
+
+.close-button {
+    position: absolute;
+    bottom: 5px;
+    right: 145px;
+}
+
+.add-button {
+    position: relative;
+    top: 5px;
+    border-radius: 2px;
+    background-color: #0079bf
+}
+
+/* input::placeholder {
+    text-align: left;
+    position: relative;
+    bottom: 12px;
+    padding: 2px;
+} */
+
+.dragging {
+    background-color: #ffffff;
+    opacity: 100;
+}
